@@ -1,0 +1,139 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #6F8F61;
+	background-color: #FFF;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+}
+h1 {
+	font-size: 1em;
+	font-weight:bold;
+	color:#9AB48F;
+}
+h2 {
+	font-size: 0.8em;
+	font-weight:bold;
+	color:#6F8F61;
+}
+p {font-size:0.8em;}
+a {text-decoration: none; color:#6F8F61;}
+a:hover {text-decoration:underline;}
+#container {
+	width: 960px;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	background-image: url(../images/bgImg.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#topImg{
+	height: 250px;
+	width: 540px;
+	position: relative;
+	top: 150px;
+	left:320px;
+}
+#menu {
+	height: 250px;
+	width: 140px;
+	position: relative;
+	top: -100px;
+	left:150px;
+}
+#mainContent {
+	width:710px;
+	position:relative;
+	top:-180px;
+	padding-left: 50px;
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+
+#mainContent ul li{
+	font-size: 0.8em;	
+}
+
+#mainContent #form1 legend {
+	font-size: 14px;
+	font-weight: bold;
+	color: #9AB48F;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0px;
+}
+
+#mainContent #form1 fieldset {
+	font-size: 13px;
+	color: #6F8F61;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: -5px;
+	padding-bottom: -5px;
+	border: 1px solid #6f8f61;
+}
+	
+#form1 {
+	text-align:right;
+}
+#gallery {
+	width: 100%;
+	margin-left: 10px;
+}
+
+#gallery a img {
+	border: 0;
+	padding: 10px;
+}
+
+a.myopacity img{
+filter:alpha(opacity=100);
+-moz-opacity: 1.0;
+opacity: 1.0;
+}
+
+a.myopacity:hover img{
+filter:alpha(opacity=70);
+-moz-opacity: 0.7;
+opacity: 0.7;
+}
+
+#footer{
+	width:890px;
+	height:20px;
+	clear:both;
+	text-align:right;
+	font-size: 0.6em;
+	position:relative;
+	top: -170px;
+	padding-right:70px;
+}
+#footer .lysiteleia {
+	color:#BAD2AE;
+}
+
+.rates td{
+	font-size:0.8em;
+	text-align:center;
+	padding:0;
+	border: thin solid #9AB48F;
+}
+#contact {
+	width:200px;
+	padding-left: 10px;
+	background-color: #EAF2E7;
+	font-size: 0.9em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.noMargin {margin:0;}
+
+#eot{width:100%; margin:5px auto; padding:2px 0; background-color:#000000; opacity:0.2; color:#fff; font-size:12px; text-align:center;}
